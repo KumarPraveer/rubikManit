@@ -1,0 +1,231 @@
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.my-toggler {
+  border-radius: 5px;
+  padding: 0.8em;
+}
+
+#praveer {
+  font-family: "Pacifico", cursive;
+}
+
+#team-header {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 2em 0 0;
+}
+
+.hero {
+  height: 100vh;
+}
+@media (max-width: 599px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+  }
+}
+.hero .two-section {
+  display: flex;
+  height: 100%;
+}
+@media (max-width: 599px) {
+  .hero .two-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.hero .two-section .first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+@media (max-width: 599px) {
+  .hero .two-section .first-section {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.hero .two-section .first-section .content-section {
+  width: 70%;
+}
+.hero .two-section .first-section .content-section h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  padding-bottom: 0.2em;
+}
+.hero .two-section .first-section .content-section .para {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2em;
+  text-align: justify;
+  font-style: normal;
+}
+.hero .two-section .second-section {
+  width: 60%;
+}
+@media (max-width: 599px) {
+  .hero .two-section .second-section {
+    display: none;
+    width: 70%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+.hero .two-section .second-section .hero-image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.testimonial {
+  padding: 3em 0;
+  font-family: "Montserrat", sans-serif;
+}
+.testimonial .image-container {
+  display: flex;
+  padding: 2em 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonial .image-container .image {
+  height: 350px;
+  width: 350px;
+  position: relative;
+  margin: 1em;
+  cursor: pointer;
+}
+@media (max-width: 599px) {
+  .testimonial .image-container .image {
+    width: 80%;
+    height: 350px;
+  }
+}
+.testimonial .image-container .image img {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+.image::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+.footer .footer-section {
+  display: flex;
+  padding: 3em 0;
+  justify-content: space-evenly;
+}
+@media (max-width: 599px) {
+  .footer .footer-section {
+    flex-wrap: wrap;
+  }
+}
+.footer .footer-section .logo-section {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-section .logo-section .manit-logo-container {
+  height: 100px;
+  width: 100px;
+  margin: 1em;
+}
+.footer .footer-section .logo-section .manit-logo-container img {
+  height: 100%;
+  width: 100%;
+}
+.footer .footer-section .logo-section .para {
+  font-size: 1.3em;
+}
+.footer .footer-section .quick-links ul {
+  list-style: none;
+  cursor: pointer;
+}
+.footer .footer-section .quick-links ul li {
+  border-bottom: 2px solid white;
+  padding: 1em;
+}
+.footer .footer-section .quick-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 599px) {
+  .footer .footer-section .quick-links {
+    margin-top: 2em;
+    width: 80%;
+  }
+}
+
+.team-container {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 599px) {
+  .team-container {
+    flex-wrap: wrap;
+    margin-top: -1em;
+    margin-bottom: 0;
+  }
+}
+.team-container .team {
+  margin: 2em;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 2em;
+  width: 45%;
+}
+@media (max-width: 599px) {
+  .team-container .team {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 2em 1em;
+  }
+}
+.team-container .team .team-content .team-name {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.team-container .team .team-content .head-of-team {
+  font-size: 2em;
+  color: white;
+}
+.team-container .team .team-content .para {
+  padding: 0.6em 0 1em;
+}
+.team-container .team .team-content .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+#manit-text {
+  width: 80%;
+}
+@media (max-width: 599px) {
+  #manit-text {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
