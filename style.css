@@ -98,6 +98,19 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 599px) {
+  .testimonial .image-container {
+    display: block;
+  }
+}
+.testimonial .image-container .image-dabba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial .image-container h4 {
+  text-align: center;
+}
 .testimonial .image-container .image {
   height: 350px;
   width: 350px;
@@ -228,4 +241,12 @@
   #manit-text {
     width: 100%;
   }
+}
+
+.gallery {
+  padding: 2em 0;
+  margin-bottom: 3em;
+}
+.gallery #carouselExampleAutoplaying {
+  margin-top: 2em;
 }/*# sourceMappingURL=style.css.map */
