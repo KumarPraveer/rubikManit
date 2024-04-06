@@ -249,4 +249,10 @@
 }
 .gallery #carouselExampleAutoplaying {
   margin-top: 2em;
+}
+
+@media (max-width: 599px) {
+  #crausal-image {
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

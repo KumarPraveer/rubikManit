@@ -233,3 +233,9 @@
     margin-top: 2em;
   }
 }
+
+#crausal-image{
+  @media (max-width: 599px) {
+   height: 300px;
+  }
+}
